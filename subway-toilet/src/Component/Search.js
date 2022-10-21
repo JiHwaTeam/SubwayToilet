@@ -4,6 +4,7 @@ import './Search.scss';
 import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
 
+// 검색 컴포넌트
 function Search({data}) {
     const [filteredData, setFilteredData] = useState([]);
     const [wordEntered, setWordEntered] = useState("");
@@ -27,7 +28,7 @@ function Search({data}) {
         setFilteredData([]);
         setWordEntered("");
     };
-
+    // 검색창
     return (
         <div className="search">
         <div className="searchInputs">
@@ -45,7 +46,7 @@ function Search({data}) {
             )}
             </div>
         </div>
-        {filteredData.length !== 0 && (
+        {filteredData.length !== 0 && ( // 역명을 작성하면 X 표시 생성
             <div className="dataResult">
             {filteredData.slice(0, 15).map((value, key) => {
                 return (
