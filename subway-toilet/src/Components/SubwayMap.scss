@@ -78,15 +78,14 @@
 	margin-bottom: -16px;
 }
 
-:root {
-    --button-color: #ffffff;
-    --button-bg-color: #0d6efd;
-    --button-hover-bg-color: #025ce2;
-  }
+
 .line2icon{
     margin-top: 5px;
 }
-button {
+button.success {
+    --button-color: #ffffff;
+    --button-bg-color: #28a745;
+    --button-hover-bg-color: #218838;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -113,9 +112,4 @@ button {
     cursor: pointer;
     
     transition: 0.5s;
-  }
-  
-  button.success {
-    --button-bg-color: #28a745;
-    --button-hover-bg-color: #218838;
   }

@@ -1,7 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
+import TitleLogoImg from "../Components/TitleLogoImg";
+import LoginRegister from "../Components/LoginRegister";
+import '../Components/Login.scss';
 
 const Login = () => {
-  return <h1>로그인</h1>;
+
+  
+
+  return(
+    <div className="login-wrap" style={{marginTop: '100px'}}>
+      <TitleLogoImg/>
+      <LoginRegister/>
+    </div>
+  );
 };
 
 export default Login;
