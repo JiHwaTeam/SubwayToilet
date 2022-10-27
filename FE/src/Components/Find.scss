@@ -1,0 +1,56 @@
+.find-txt {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+    li {
+        padding: 0;
+        font-size: 13px;
+        margin: 0 1rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+    }
+
+    .id-txt {
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.find-form {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    input {
+        width: 100%;
+        border-style: none;
+        margin: 0.3rem 0;
+        height: 2.5rem;
+        border: 1px solid #bbb;
+        border-radius: 8px;
+    }
+
+    .id-btn {
+        width: 20rem;
+        height: 3rem;
+        border-radius: 10px;
+        box-shadow: 30px;
+        font-size: 23px;
+        margin-top: 1rem;
+    }
+
+    .login-link {
+        display: inline-block;
+        margin-left: 7rem;
+    }
+
+}

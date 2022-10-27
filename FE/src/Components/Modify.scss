@@ -1,0 +1,43 @@
+.Modify {
+
+    .id-txt2 {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 10rem;
+    }
+
+    .modify-form {
+        width: 100%;
+    
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    }
+    }
+}
+
+input {
+    width: 100%;
+    border-style: none;
+    margin: 0.3rem 0;
+    height: 2.5rem;
+    border-radius: 8px;
+    padding: 0 0.6rem;
+    border: 1px solid #bbb;
+}
+
+.login-link {
+    display: inline-block;
+    margin: 0.3rem 0;
+    margin-left: 4.5rem;
+    padding: 0 0.6rem;
+    cursor: pointer;
+    font-size: 11px;
+    margin-bottom: 1rem;
+}
+
+.id-btn {
+    width: 100%;
+    border-style: none;
+}
